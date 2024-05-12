@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loans" parallel="tests" thread-count="20">
+	<parameter name="url" value="personalloan.com"></parameter>
+	<parameter name="apikey" value="api.com"></parameter>
+	
+  <test name="PersonalLoan">
+    <classes>
+      <class name="Test.day1"/>
+      <class name="Test.Day2"/>
+    </classes>
+  </test> 
+  <test name="CarLoan">
+    <classes>
+      <class name="Test.day3"/>
+		  <class  name="Test.day4"></class>
+		  	  
+   
+    </classes>
+  </test> 
+  <!-- Test -->
+</suite> <!-- Suite -->
