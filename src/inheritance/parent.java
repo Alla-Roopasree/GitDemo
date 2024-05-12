@@ -8,6 +8,7 @@ public class parent {
 
 public void method1() {
 	System.out.println("hello");
+	System.out.println("Bye");
 	}
 @BeforeMethod
 public void method2()
