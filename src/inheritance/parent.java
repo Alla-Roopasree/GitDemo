@@ -8,7 +8,7 @@ public class parent {
 
 public void method1() {
 	System.out.println("hello");
-	System.out.println("Bye");
+	System.out.println("Byejj");
 	}
 @BeforeMethod
 public void method2()

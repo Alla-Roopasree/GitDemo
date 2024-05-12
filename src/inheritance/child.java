@@ -19,4 +19,8 @@ public class child extends parent{
 	System.out.println(p.decrement());
 	System.out.println(p.multiply());
 	}
+public void print1()
+{
+	System.ot.println("hello");
+}
 }
